@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZEFATT_STATUS</DOMNAME>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DOMVALUE_L>CREATED</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DOMVALUE_L>ACCEPT</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DOMVALUE_L>CREA_INVIN</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DOMVALUE_L>CONT</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DOMVALUE_L>ERROR</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DOMVALUE_L>ERR_VEND</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DOMVALUE_L>CREA_VEND</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0008</VALPOS>
+     <DOMVALUE_L>ERR_INVIN</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0009</VALPOS>
+     <DOMVALUE_L>CREA_PARK</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0010</VALPOS>
+     <DOMVALUE_L>ERR_PARK</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0011</VALPOS>
+     <DOMVALUE_L>ERR_ODA</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0012</VALPOS>
+     <DOMVALUE_L>LOCK_VEND</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0013</VALPOS>
+     <DOMVALUE_L>ULOCK_VEND</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0014</VALPOS>
+     <DOMVALUE_L>DELE_PARK</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0015</VALPOS>
+     <DOMVALUE_L>DELE_INVIN</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_STATUS</DOMNAME>
+     <VALPOS>0016</VALPOS>
+     <DOMVALUE_L>DELE_CONT</DOMVALUE_L>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>eFattura - Stato di elaborazione</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>CREATED</DOMVALUE_L>
+     <DDTEXT>eFattura creato</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>ACCEPT</DOMVALUE_L>
+     <DDTEXT>eFattura accettata</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>CREA_INVIN</DOMVALUE_L>
+     <DDTEXT>Fattura parcheggiata creata</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>CONT</DOMVALUE_L>
+     <DDTEXT>Fattura ril. in contablità</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>ERROR</DOMVALUE_L>
+     <DDTEXT>eFattura in errore</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>ERR_VEND</DOMVALUE_L>
+     <DDTEXT>Errore nella Creazione del Fornitore</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>CREA_VEND</DOMVALUE_L>
+     <DDTEXT>Creato Fornitore</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>ERR_INVIN</DOMVALUE_L>
+     <DDTEXT>Errore nella Creazione della Fattura parcheggiata</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>CREA_PARK</DOMVALUE_L>
+     <DDTEXT>Fattura preacquista creata</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>ERR_PARK</DOMVALUE_L>
+     <DDTEXT>Errore nella Creazione della Fattura preacquista</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>ERR_ODA</DOMVALUE_L>
+     <DDTEXT>Errore per inesitenza Ordine d&apos; acquisto</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>LOCK_VEND</DOMVALUE_L>
+     <DDTEXT>Sbloccare Fornitore per acquisire fattura</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>ULOCK_VEND</DOMVALUE_L>
+     <DDTEXT>Fornitore sbloccato procedere ad acquisire la fattura</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>DELE_PARK</DOMVALUE_L>
+     <DDTEXT>Fattura preacquista cancellata</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>DELE_INVIN</DOMVALUE_L>
+     <DDTEXT>Fattura parcheggiata cancellata</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>DELE_CONT</DOMVALUE_L>
+     <DDTEXT>Documento contabile stornato</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEDOCCOD_EORITYPE</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZEDOCCOD_EORITYPE</OBJ_NAME_M>
+     <HASH_ID>B64858AE5F8ACCAF4275671EE2EA7B197EE4A7DC</HASH_ID>
+     <ID>&lt;type&gt; CodEORIType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>CodEORIType</IFR_NAME>
+     <IFR_NSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</IFR_NSPCE>
+     <IFR_GNSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZEDOC</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</X-ML_NSPCE>
+     <X-ML_NAME>CodEORIType</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEDOCCOD_EORITYPE</OBJ_NAME>
+     <OBJECT1>DTEL</OBJECT1>
+     <OBJ_NAME1>ZEDOCCOD_EORITYPE</OBJ_NAME1>
+     <OBJECT2>DTEL</OBJECT2>
+     <OBJ_NAME2>ZEDOCCOD_EORITYPE</OBJ_NAME2>
+     <ID>&lt;type&gt; CodEORIType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>CodEORIType</IFR_NAME>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_MAXLEN>17</IFR_MAXLEN>
+     <IFR_MINLEN>13</IFR_MINLEN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>DTEL</R3_TYPE>
+     <R3_NAME>ZEDOCCOD_EORITYPE</R3_NAME>
+     <R3_TEXT>Proxy Data Element (generated)</R3_TEXT>
+     <R3_DATATYP>CHAR</R3_DATATYP>
+     <R3_LENGTH>000017</R3_LENGTH>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

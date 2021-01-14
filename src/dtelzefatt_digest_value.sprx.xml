@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_DIGEST_VALUE</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZEFATT_DIGEST_VALUE</OBJ_NAME_M>
+     <HASH_ID>190503248854A258CE5AA6C219EB0EEC9EDFDE33</HASH_ID>
+     <ID>&lt;element&gt; DigestValue http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>DigestValue</IFR_NAME>
+     <IFR_NSPCE>http://www.w3.org/2000/09/xmldsig#</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.w3.org/2000/09/xmldsig#</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZEFATT_</PREFIX>
+     <CATEGORY>element</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://www.w3.org/2000/09/xmldsig#</X-ML_NSPCE>
+     <X-ML_NAME>DigestValue</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_DIGEST_VALUE</OBJ_NAME>
+     <OBJECT1>DTEL</OBJECT1>
+     <OBJ_NAME1>ZEFATT_DIGEST_VALUE</OBJ_NAME1>
+     <OBJECT2>DTEL</OBJECT2>
+     <OBJ_NAME2>ZEFATT_DIGEST_VALUE</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZEFATT_DIGEST_VALUE_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; DigestValue http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>DigestValue</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>base64Binary</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>DTEL</R3_TYPE>
+     <R3_NAME>ZEFATT_DIGEST_VALUE</R3_NAME>
+     <R3_TEXT>Proxy Data Element (generated)</R3_TEXT>
+     <R3_DATATYP>RSTR</R3_DATATYP>
+     <CATEGORY>element</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

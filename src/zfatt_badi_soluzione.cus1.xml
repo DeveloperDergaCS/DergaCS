@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS1" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS1>
+    <ACTIVITY_HEADER>
+     <ACT_ID>ZFATT_BADI_SOLUZIONE</ACT_ID>
+     <ACT_TYPE>E</ACT_TYPE>
+    </ACTIVITY_HEADER>
+    <ACTIVITY_CUSTOMER_EXIT>
+     <ACT_ID>ZFATT_BADI_SOLUZIONE</ACT_ID>
+     <EXIT_NAME>ZFATT_BADI_SOLUZIONE</EXIT_NAME>
+    </ACTIVITY_CUSTOMER_EXIT>
+    <ACTIVITY_TITLE>
+     <CUS_ACTT>
+      <SPRAS>I</SPRAS>
+      <ACT_ID>ZFATT_BADI_SOLUZIONE</ACT_ID>
+      <TEXT>BaDi per gestione di soluzioni scenari custom</TEXT>
+     </CUS_ACTT>
+    </ACTIVITY_TITLE>
+   </CUS1>
+  </asx:values>
+ </asx:abap>
+</abapGit>

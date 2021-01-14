@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_EFATT_FILEPROVIDER</CLSNAME>
+    <LANGU>I</LANGU>
+    <DESCRIPT>Fattura Elettronica - Interfaccia per accesso a file</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_EFATT_FILEPROVIDER</CLSNAME>
+     <CMPNAME>CLOSE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Fine connessione</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_EFATT_FILEPROVIDER</CLSNAME>
+     <CMPNAME>DELETE_FILE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Cancellazione file dalla cartella di lavoro</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_EFATT_FILEPROVIDER</CLSNAME>
+     <CMPNAME>GET_FILE_LISTING</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>LIsta file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_EFATT_FILEPROVIDER</CLSNAME>
+     <CMPNAME>READ_FILE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Lettura contenuto file in tabella interna</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_EFATT_FILEPROVIDER</CLSNAME>
+     <CMPNAME>SET_WORK_DIRECTORY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Set cartella di lavoro</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_EFATT_FILEPROVIDER</CLSNAME>
+     <CMPNAME>TRANSFER_FILE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Trasferimento file in un altra cartella</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_EFATT_FILEPROVIDER</CLSNAME>
+     <CMPNAME>WRITE_FILE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Scrittura contenuto file in tabella interna</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

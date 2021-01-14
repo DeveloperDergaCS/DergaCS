@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_DEF</TOOL>
+   <BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>ZFATT_BADI_SOLUZIONE</BADI_NAME>
+     <INTERFACE_NAME>ZIF_FATT_BADI_SOLUZIONE</INTERFACE_NAME>
+     <SINGLE_USE>X</SINGLE_USE>
+     <CONTEXT_MODE>N</CONTEXT_MODE>
+     <BADI_SHORTTEXT>BaDi per gestione di soluzioni scenari custom</BADI_SHORTTEXT>
+     <BADI_SHORTTEXT_ID>EB386DCB4EE0ABF1AADD00505681467F</BADI_SHORTTEXT_ID>
+    </ENH_BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>ZFATT_BADI_API</BADI_NAME>
+     <INTERFACE_NAME>ZIF_FATT_BADI_API</INTERFACE_NAME>
+     <SINGLE_USE>X</SINGLE_USE>
+     <CONTEXT_MODE>N</CONTEXT_MODE>
+     <BADI_SHORTTEXT>Badi per gestione API del Partner</BADI_SHORTTEXT>
+     <BADI_SHORTTEXT_ID>005056B0F2DF1EDB93D34E56D4F352A5</BADI_SHORTTEXT_ID>
+    </ENH_BADI_DATA>
+   </BADI_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_OBJECT_TYPE</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZEFATT_OBJECT_TYPE</OBJ_NAME_M>
+     <HASH_ID>0FB626E373C47CCA249EA7F5A2F0281DB83BBE98</HASH_ID>
+     <ID>&lt;type&gt; ObjectType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>ObjectType</IFR_NAME>
+     <IFR_NSPCE>http://www.w3.org/2000/09/xmldsig#</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.w3.org/2000/09/xmldsig#</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZEFATT_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://www.w3.org/2000/09/xmldsig#</X-ML_NSPCE>
+     <X-ML_NAME>ObjectType</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_OBJECT_TYPE</OBJ_NAME>
+     <OBJECT1>DTEL</OBJECT1>
+     <OBJ_NAME1>ZEFATT_OBJECT_TYPE</OBJ_NAME1>
+     <OBJECT2>DTEL</OBJECT2>
+     <OBJ_NAME2>ZEFATT_OBJECT_TYPE</OBJ_NAME2>
+     <ID>&lt;type&gt; ObjectType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>ObjectType</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>DTEL</R3_TYPE>
+     <R3_NAME>ZEFATT_OBJECT_TYPE</R3_NAME>
+     <R3_TEXT>Proxy Data Element (generated)</R3_TEXT>
+     <R3_DTREF>XSDANY</R3_DTREF>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <FURTHERDATA>&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;IFR_MIXED&gt;true&lt;/IFR_MIXED&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</FURTHERDATA>
+    </item>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_OBJECT_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ENCODING</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ENCODING</OBJ_NAME2>
+     <ID>&lt;attribute&gt; Encoding &lt;type&gt; ObjectType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>attribute</IFR_TYPE>
+     <IFR_NAME>Encoding</IFR_NAME>
+     <IFR_TAGTYP>A</IFR_TAGTYP>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>anyURI</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ENCODING</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_OBJECT_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ID</OBJ_NAME2>
+     <ID>&lt;attribute&gt; Id &lt;type&gt; ObjectType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>attribute</IFR_TYPE>
+     <IFR_NAME>Id</IFR_NAME>
+     <IFR_TAGTYP>A</IFR_TAGTYP>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>ID</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ID</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_OBJECT_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>MIME_TYPE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>MIME_TYPE</OBJ_NAME2>
+     <ID>&lt;attribute&gt; MimeType &lt;type&gt; ObjectType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>attribute</IFR_TYPE>
+     <IFR_NAME>MimeType</IFR_NAME>
+     <IFR_TAGTYP>A</IFR_TAGTYP>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>MIME_TYPE</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_OBJECT_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SEQUENCE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SEQUENCE</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZEFATT_OBJECT_TYPE_SEQUENC_TAB</OBJ_NAME_R>
+     <ID>&lt;element&gt; -sequence &lt;type&gt; ObjectType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>-sequence</IFR_NAME>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SEQUENCE</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

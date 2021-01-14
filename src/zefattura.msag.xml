@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZEFATTURA</ARBGB>
+    <MASTERLANG>I</MASTERLANG>
+    <STEXT>eFattura - Classe messaggi</STEXT>
+   </T100A>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>I</SPRSL>
+     <ARBGB>ZEFATTURA</ARBGB>
+     <STEXT>eFattura - Classe messaggi</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nessun dato estratto</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Manca la configurazione della regola di mapping</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Manca il mapping dei tag XML</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Eccezione sconosciuta nella classe eFattura</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Manca configurazione mapping dei campi con XML</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Errore nell&apos;upload del file</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Errore nella conversione del file a stringa esadecimale</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Errore nella creazione dell&apos;eFattura</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Creata eFattura &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Mancano i dati di default per la creazione del Fornitore</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Creato Fornitore &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Impossibile determinare conto per fornitore &amp; e società &amp; &amp;. Rif. &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Manca configurazione Classe per elaborazione dati mappati</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Fattura &amp; ril. in contablità</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Per il fornitore &amp; la fattura &amp; già presente a sistema</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Già è stato inviato file con progressivo &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Manca la configurazione mapping dei dati di trasmissione</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Il file &amp; già importato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Errore nella lettura del file</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Manca la configurazione per l&apos;interfaccia &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Manca configurazione delle cartelle di lavoro</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Lo stato dell&apos;eFattura non ne consente la sua cancellazione</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>L&apos;ordine d&apos;acquisto &amp; non esiste</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Fornitore non creato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Documento Preacquistio già creato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Documento Parcheggiato già creato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Fornitore &amp; sbloccato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Data reg. &amp; ai fini IVA errata. Data attuale &amp; documento &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Lo stato dell&apos;eFattura non ne consente la sua preacquisizione</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Documento Preacquisito &amp; stornato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Data reg. &amp; minore di quella di ricezione SDI &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Documento già creato per il fornitore &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Modificato Fornitore in &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Impossibile modificare tipo documento. Documento già creato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Modificato tipo documento in &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Mancano dato relativo a raggruppamento BP</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Mancano dati relativi ai ruoli BP</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Nessun documento di riferimento trovato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Documento Parcheggiato &amp; cancellato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Inserire tipo documento. Effettuare la transcodifica</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Data reg. &amp; minore di quella di documento &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Mancana la transcodifica per il tipo di ritenuta &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Dati non trovati per il tipo di ritenuta &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Documento contabile &amp; stornato</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Non ci sono file nella cartella</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Manca configurazione FTP attiva</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Manca la configurazione della notifica con il tag di riferimento</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>La configurazione della notifica con il tag è errata</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Non è possibile aggiungere il fornitore. Possibile solo la modifica</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Aggiunto Fornitore in &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Configurazione non consentira in quanto non coerente con la tipologia</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Importo della fattura &amp; è a 0 si dovrà procedera con la FB01</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Importo della fattura &amp; è a 0 si dovrà procedera con la MIRO</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Manca configurazione Web Service attiva</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Manca configurazione classe per gestione Web Service</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Manca configurazione porta logica per Web Service SOAP</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Manca configurazione RFC servizio per Web Service REST</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Manca configurazione metodo per Web Service</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Non è stato determinato codice IVA. Chiave &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Dati di accesso al partner sono incompleti</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Verif. implemenentazione BAdI &amp; metodo &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Verif. implemenentazione BAdI &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Impossibile determinare conto cassa per fornitore &amp; e società &amp; &amp;. Rif. &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Imp. visualizzare file</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Parametro obbligatorio &amp;3 non fornito nel metodo &amp;2 della classe &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>802</MSGNR>
+     <TEXT>XML contiene errori; elaborazione impossibile</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>803</MSGNR>
+     <TEXT>Nodo XML &amp;1 non trovato</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

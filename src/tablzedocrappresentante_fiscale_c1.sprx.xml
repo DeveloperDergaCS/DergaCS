@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCRAPPRESENTANTE_FISCALE_C1</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZEDOCRAPPRESENTANTE_FISCALE_CE</OBJ_NAME_M>
+     <HASH_ID>23F929DAB4630111F3C51280697BC4782777578A</HASH_ID>
+     <ID>&lt;sequence&gt; sequence1 &lt;choice&gt; choice &lt;type&gt; RappresentanteFiscaleCessionarioType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>sequence</IFR_TYPE>
+     <IFR_NAME>sequence1</IFR_NAME>
+     <IFR_NSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</IFR_NSPCE>
+     <IFR_GNSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZEDOC</PREFIX>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</X-ML_NSPCE>
+     <X-ML_NAME>sequence1</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCRAPPRESENTANTE_FISCALE_C1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>COGNOME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>COGNOME</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZEDOCSTRING60LATIN_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; Cognome &lt;sequence&gt; sequence1 &lt;choice&gt; choice &lt;type&gt; RappresentanteFiscaleCessionarioType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Cognome</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>COGNOME</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCRAPPRESENTANTE_FISCALE_C1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>NOME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>NOME</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZEDOCSTRING60LATIN_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; Nome &lt;sequence&gt; sequence1 &lt;choice&gt; choice &lt;type&gt; RappresentanteFiscaleCessionarioType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Nome</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>NOME</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCRAPPRESENTANTE_FISCALE_C1</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZEDOCRAPPRESENTANTE_FISCALE_C1</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZEDOCRAPPRESENTANTE_FISCALE_C1</OBJ_NAME2>
+     <ID>&lt;sequence&gt; sequence1 &lt;choice&gt; choice &lt;type&gt; RappresentanteFiscaleCessionarioType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>sequence</IFR_TYPE>
+     <IFR_NAME>sequence1</IFR_NAME>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZEDOCRAPPRESENTANTE_FISCALE_C1</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

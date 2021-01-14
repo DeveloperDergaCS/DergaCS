@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCCONTATTI_TYPE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZEDOCCONTATTI_TYPE</OBJ_NAME_M>
+     <HASH_ID>84BA13C9FBDE59EC4BAAB9DB859CDCABA4E46CE5</HASH_ID>
+     <ID>&lt;type&gt; ContattiType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>ContattiType</IFR_NAME>
+     <IFR_NSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</IFR_NSPCE>
+     <IFR_GNSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZEDOC</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</X-ML_NSPCE>
+     <X-ML_NAME>ContattiType</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCCONTATTI_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>EMAIL</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>EMAIL</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZEDOCEMAIL_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; Email &lt;type&gt; ContattiType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Email</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>EMAIL</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCCONTATTI_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>FAX</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>FAX</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZEDOCTEL_FAX_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; Fax &lt;type&gt; ContattiType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Fax</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>FAX</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCCONTATTI_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TELEFONO</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TELEFONO</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZEDOCTEL_FAX_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; Telefono &lt;type&gt; ContattiType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>Telefono</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TELEFONO</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCCONTATTI_TYPE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZEDOCCONTATTI_TYPE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZEDOCCONTATTI_TYPE</OBJ_NAME2>
+     <ID>&lt;type&gt; ContattiType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>ContattiType</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZEDOCCONTATTI_TYPE</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

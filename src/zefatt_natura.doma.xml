@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZEFATT_NATURA</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Natura</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N1</DOMVALUE_L>
+     <DDTEXT>escluse ex art.15</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N2</DOMVALUE_L>
+     <DDTEXT>non sogette</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N2.1</DOMVALUE_L>
+     <DDTEXT>non IVA ai sensi degli artt. Da 7 a 7-septies del DPR 633/72</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N2.2</DOMVALUE_L>
+     <DDTEXT>non soggette – altri casi</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N3</DOMVALUE_L>
+     <DDTEXT>non imponibili</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N3.1</DOMVALUE_L>
+     <DDTEXT>non imponibili - esportazioni</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N3.2</DOMVALUE_L>
+     <DDTEXT>non imponibili – cessioni intracomunitarie</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N3.3</DOMVALUE_L>
+     <DDTEXT>non imponibili – cessioni verso San Marino</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N3.4</DOMVALUE_L>
+     <DDTEXT>non imponibili – operazioni assimilate alle ces. all’esport.</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N3.5</DOMVALUE_L>
+     <DDTEXT>non imponibili – a seguito di dichiarazioni d’intento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N3.6</DOMVALUE_L>
+     <DDTEXT>non imponibili – altre operazioni no platfond</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N4</DOMVALUE_L>
+     <DDTEXT>esenti</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N5</DOMVALUE_L>
+     <DDTEXT>regime del margine</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N6</DOMVALUE_L>
+     <DDTEXT>reverse charge</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N6.1</DOMVALUE_L>
+     <DDTEXT>inversione contabile – cessione di rottami e altri mat.recup</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N6.2</DOMVALUE_L>
+     <DDTEXT>inversione contabile – cessione di oro e argento puro</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N6.3</DOMVALUE_L>
+     <DDTEXT>inversione contabile – subappalto nel settore edile</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N6.4</DOMVALUE_L>
+     <DDTEXT>inversione contabile – cessione di fabbricati</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N6.5</DOMVALUE_L>
+     <DDTEXT>inversione contabile – cessione di telefoni cellulari</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N6.6</DOMVALUE_L>
+     <DDTEXT>inversione contabile – cessione di prodotti elettronici</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N6.7</DOMVALUE_L>
+     <DDTEXT>inversione contabile – prestazioni comparto edile e connessi</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N6.8</DOMVALUE_L>
+     <DDTEXT>inversione contabile – operazioni settore energetico</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N6.9</DOMVALUE_L>
+     <DDTEXT>inversione contabile – altri casi</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_NATURA</DOMNAME>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>N7</DOMVALUE_L>
+     <DDTEXT>IVA pagata in un altra nazione UE</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Natura</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N1</DOMVALUE_L>
+     <DDTEXT>escluse ex art.15</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N2</DOMVALUE_L>
+     <DDTEXT>non soggette</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N2.1</DOMVALUE_L>
+     <DDTEXT>non IVA ai sensi degli artt. Da 7 a 7-septies del DPR 633/72</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N2.2</DOMVALUE_L>
+     <DDTEXT>non soggette - altri casi</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N3</DOMVALUE_L>
+     <DDTEXT>non imponibili</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N3.1</DOMVALUE_L>
+     <DDTEXT>non imponibili - esportazioni</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N3.2</DOMVALUE_L>
+     <DDTEXT>non imponibili - cessioni intracomunitarie</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N3.3</DOMVALUE_L>
+     <DDTEXT>non imponibili - cessioni verso San Marino</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N3.4</DOMVALUE_L>
+     <DDTEXT>non imponibili - operazioni assimilate alle ces. all#esport.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N3.5</DOMVALUE_L>
+     <DDTEXT>non imponibili - a seguito di dichiarazioni d#intento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N3.6</DOMVALUE_L>
+     <DDTEXT>non imponibili - altre operazioni no platfond</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N4</DOMVALUE_L>
+     <DDTEXT>esenti</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N5</DOMVALUE_L>
+     <DDTEXT>regime del margine</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N6</DOMVALUE_L>
+     <DDTEXT>reverse charge</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N6.1</DOMVALUE_L>
+     <DDTEXT>inversione contabile - cessione di rottami e altri mat.recup</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N6.2</DOMVALUE_L>
+     <DDTEXT>inversione contabile - cessione di oro e argento puro</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N6.3</DOMVALUE_L>
+     <DDTEXT>inversione contabile - subappalto nel settore edile</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N6.4</DOMVALUE_L>
+     <DDTEXT>inversione contabile - cessione di fabbricati</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N6.5</DOMVALUE_L>
+     <DDTEXT>inversione contabile - cessione di telefoni cellulari</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N6.6</DOMVALUE_L>
+     <DDTEXT>inversione contabile - cessione di prodotti elettronici</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N6.7</DOMVALUE_L>
+     <DDTEXT>inversione contabile - prestazioni comparto edile e connessi</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N6.8</DOMVALUE_L>
+     <DDTEXT>inversione contabile - operazioni settore energetico</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N6.9</DOMVALUE_L>
+     <DDTEXT>inversione contabile - altri casi</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>N7</DOMVALUE_L>
+     <DDTEXT>IVA pagata in un altra nazione UE</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

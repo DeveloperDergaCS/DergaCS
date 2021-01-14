@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCALTRI_DATI_GESTIONALI_TYP</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZEDOCALTRI_DATI_GESTIONALI_TYP</OBJ_NAME_M>
+     <HASH_ID>E6FC17355B165741EAC8309312E45E33C0C082C3</HASH_ID>
+     <ID>&lt;type&gt; AltriDatiGestionaliType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AltriDatiGestionaliType</IFR_NAME>
+     <IFR_NSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</IFR_NSPCE>
+     <IFR_GNSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZEDOC</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</X-ML_NSPCE>
+     <X-ML_NAME>AltriDatiGestionaliType</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCALTRI_DATI_GESTIONALI_TYP</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RIFERIMENTO_DATA</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RIFERIMENTO_DATA</OBJ_NAME2>
+     <ID>&lt;element&gt; RiferimentoData &lt;type&gt; AltriDatiGestionaliType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>RiferimentoData</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>date</IFR_XSDTYP>
+     <IFR_PATTRN>[0-9]{4}-[0-9]{2}-[0-9]{2}</IFR_PATTRN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RIFERIMENTO_DATA</R3_NAME>
+     <R3_DTREF>XSDDATE_D</R3_DTREF>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCALTRI_DATI_GESTIONALI_TYP</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RIFERIMENTO_NUMERO</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RIFERIMENTO_NUMERO</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZEDOCAMOUNT8DECIMAL_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; RiferimentoNumero &lt;type&gt; AltriDatiGestionaliType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>RiferimentoNumero</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RIFERIMENTO_NUMERO</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCALTRI_DATI_GESTIONALI_TYP</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RIFERIMENTO_TESTO</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RIFERIMENTO_TESTO</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZEDOCSTRING60LATIN_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; RiferimentoTesto &lt;type&gt; AltriDatiGestionaliType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>RiferimentoTesto</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RIFERIMENTO_TESTO</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCALTRI_DATI_GESTIONALI_TYP</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TIPO_DATO</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TIPO_DATO</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZEDOCSTRING10TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; TipoDato &lt;type&gt; AltriDatiGestionaliType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>TipoDato</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TIPO_DATO</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCALTRI_DATI_GESTIONALI_TYP</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZEDOCALTRI_DATI_GESTIONALI_TYP</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZEDOCALTRI_DATI_GESTIONALI_TYP</OBJ_NAME2>
+     <ID>&lt;type&gt; AltriDatiGestionaliType http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AltriDatiGestionaliType</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZEDOCALTRI_DATI_GESTIONALI_TYP</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

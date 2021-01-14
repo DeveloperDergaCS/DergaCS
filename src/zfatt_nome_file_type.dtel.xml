@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZFATT_NOME_FILE_TYPE</ROLLNAME>
+    <HEADLEN>50</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DTELMASTER>I</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000050</LENG>
+    <OUTPUTLEN>000050</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Fattura Elettronica - Notifica - Nome File</DDTEXT>
+     <REPTEXT>Notifica - Nome File</REPTEXT>
+     <SCRTEXT_S>Nome File</SCRTEXT_S>
+     <SCRTEXT_M>Nome File</SCRTEXT_M>
+     <SCRTEXT_L>Notifica - Nome File</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

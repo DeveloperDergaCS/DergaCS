@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_FATT_API</CLSNAME>
+    <LANGU>I</LANGU>
+    <DESCRIPT>Fattura Elettronica  - API RestFull/SOAP</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>API_RESTULL_CONNECT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>API_RESTULL_INCOMING_INVOICE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>API_RESTULL_INCOMING_NOTIF</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>API_RESTULL_SEND_INVOICE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>BADI_FATT_API</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Badi per gestione API del Partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>CLOSE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Chiusura connessione al servizio</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>CONNECT_TO_SERVICE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Connesione al sistema partner</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>INCOMING_INVOICE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Ricezione fattura elettronica passiva</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>INCOMING_NOTIFICATION</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Ricezione Notifiche SDI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>SEND_INVOICE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Invio fattura elettronica attiva</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_FATT_API</CLSNAME>
+     <CMPNAME>SOAP_CONNECT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Proxy SOAP</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

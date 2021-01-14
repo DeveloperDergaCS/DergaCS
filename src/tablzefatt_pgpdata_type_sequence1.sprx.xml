@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEFATT_PGPDATA_TYPE_SEQUENCE1</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZEFATT_PGPDATA_TYPE</OBJ_NAME_M>
+     <HASH_ID>D91F4260E55B432BBB599E2A32D939CFEF68BE1E</HASH_ID>
+     <ID>&lt;sequence&gt; sequence1 &lt;choice&gt; choice &lt;type&gt; PGPDataType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>sequence</IFR_TYPE>
+     <IFR_NAME>sequence1</IFR_NAME>
+     <IFR_NSPCE>http://www.w3.org/2000/09/xmldsig#</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.w3.org/2000/09/xmldsig#</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZEFATT_</PREFIX>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://www.w3.org/2000/09/xmldsig#</X-ML_NSPCE>
+     <X-ML_NAME>sequence1</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEFATT_PGPDATA_TYPE_SEQUENCE1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ANY</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ANY</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZEFATT_ANY_TAB</OBJ_NAME_R>
+     <ID>&lt;any&gt; any &lt;sequence&gt; sequence1 &lt;choice&gt; choice &lt;type&gt; PGPDataType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>any</IFR_TYPE>
+     <IFR_NAME>any</IFR_NAME>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ANY</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+     <FURTHERDATA>&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;IFR_NAMESPACE&gt;##other&lt;/IFR_NAMESPACE&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</FURTHERDATA>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEFATT_PGPDATA_TYPE_SEQUENCE1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>PGPKEY_PACKET</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>PGPKEY_PACKET</OBJ_NAME2>
+     <ID>&lt;element&gt; {http://www.w3.org/2000/09/xmldsig#}PGPKeyPacket &lt;sequence&gt; sequence1 &lt;choice&gt; choice &lt;type&gt; PGPDataType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>PGPKeyPacket</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>base64Binary</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>PGPKEY_PACKET</R3_NAME>
+     <R3_DATATYP>RSTR</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEFATT_PGPDATA_TYPE_SEQUENCE1</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZEFATT_PGPDATA_TYPE_SEQUENCE1</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZEFATT_PGPDATA_TYPE_SEQUENCE1</OBJ_NAME2>
+     <ID>&lt;sequence&gt; sequence1 &lt;choice&gt; choice &lt;type&gt; PGPDataType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>sequence</IFR_TYPE>
+     <IFR_NAME>sequence1</IFR_NAME>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZEFATT_PGPDATA_TYPE_SEQUENCE1</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

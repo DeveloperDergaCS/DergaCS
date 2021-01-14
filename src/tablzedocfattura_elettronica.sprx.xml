@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCFATTURA_ELETTRONICA</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZEDOCFATTURA_ELETTRONICA</OBJ_NAME_M>
+     <HASH_ID>DEF3836D63894E808C23854975670E92CC97B958</HASH_ID>
+     <ID>&lt;message&gt; FatturaElettronica http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>FatturaElettronica</IFR_NAME>
+     <IFR_NSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</IFR_NSPCE>
+     <IFR_GNSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZEDOC</PREFIX>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</X-ML_NSPCE>
+     <X-ML_NAME>FatturaElettronica</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCFATTURA_ELETTRONICA</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>FATTURA_ELETTRONICA</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>FATTURA_ELETTRONICA</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZEDOCFATTURA_ELETTRONICA_TYPE</OBJ_NAME_R>
+     <ID>&lt;part&gt; FatturaElettronica &lt;message&gt; FatturaElettronica http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>part</IFR_TYPE>
+     <IFR_NAME>FatturaElettronica</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>FATTURA_ELETTRONICA</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZEDOCFATTURA_ELETTRONICA</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZEDOCFATTURA_ELETTRONICA</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZEDOCFATTURA_ELETTRONICA</OBJ_NAME2>
+     <ID>&lt;message&gt; FatturaElettronica http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>FatturaElettronica</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZEDOCFATTURA_ELETTRONICA</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

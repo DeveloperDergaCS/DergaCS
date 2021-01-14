@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+    <LANGU>I</LANGU>
+    <DESCRIPT>Fattura Elettronica - Utilities</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>RFC</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Controllo fatture in entrata</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Acquisizione documento parcheggiato</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Documenti di riferimento inesistenti. Continuare con MIRO?</ENTRY>
+       <LENGTH>58</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Si</ENTRY>
+       <LENGTH>2</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>No</ENTRY>
+       <LENGTH>2</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Creazione solo testata della fattura</ENTRY>
+       <LENGTH>53</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Verrà interrotta la creazione</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>ADD_GOS_ATTACHMENT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Aggiunta allegato a documento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>ADD_GOS_XML_STYLESHEET</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Aggiunta XML renderizzato come allegato al documento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>CREATE_SHORTCUT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Creazione Shortcut</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>DECODE_BASE64_XSTRING</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Decodifica a base64 xstring</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>DELETE_STYLE_SHEET</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Cancellazione tag StyleSheet da XML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>DISPLAY_XML</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Visualizzazione file XML in una nuova finestra</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>FILE_GET_NAME</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Percorso file fisico</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>GCL_PROCESS_MAP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>eFattura - Elaborazione dati mappati MALO</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>GET_FILES_FROM_FILE_SYSTEM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Lista file da application server</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>GET_LIST_FROM_XML</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Extract lists of value from an XML file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>GET_VALUE_FROM_XML</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Lettura contenuto da XML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>HANDLE_DIGITAL_SIGNATURE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Gestione Firma Digitale PKCS7</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>MANAGE_FILE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Gestione Interfaccia file (FTP, Application Server)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>MANAGE_WS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Gestione Interfaccia Web Service  (RestFull, SOAP)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>P6_TO_DATE_TIME_TZ</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Conversione seconds since 1970 in data e ora</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>SEND_MAIL</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Invio Mail</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>SEND_MAIL_WITH_SHORTCUT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Invio Mail con Shortcut</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>START_WORKFLOW</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Trigger WorkFlow</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>TRANSFOM_ATTACHEMENT_TO_BYNARY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Trasformazione allegato in formato binario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_UTIL</CLSNAME>
+     <CMPNAME>TRANSFOM_XML_TO_STYLESHEET</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Trasformazione dell&apos;XML in foglio di stile</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

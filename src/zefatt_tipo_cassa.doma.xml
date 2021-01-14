@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DOMVALUE_L>TC01</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DOMVALUE_L>TC02</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DOMVALUE_L>TC03</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DOMVALUE_L>TC04</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DOMVALUE_L>TC05</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DOMVALUE_L>TC06</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DOMVALUE_L>TC07</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0008</VALPOS>
+     <DOMVALUE_L>TC08</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0009</VALPOS>
+     <DOMVALUE_L>TC09</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0010</VALPOS>
+     <DOMVALUE_L>TC10</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0011</VALPOS>
+     <DOMVALUE_L>TC11</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0012</VALPOS>
+     <DOMVALUE_L>TC12</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0013</VALPOS>
+     <DOMVALUE_L>TC13</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0014</VALPOS>
+     <DOMVALUE_L>TC14</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0015</VALPOS>
+     <DOMVALUE_L>TC15</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0016</VALPOS>
+     <DOMVALUE_L>TC16</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0017</VALPOS>
+     <DOMVALUE_L>TC17</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0018</VALPOS>
+     <DOMVALUE_L>TC18</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0019</VALPOS>
+     <DOMVALUE_L>TC19</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0020</VALPOS>
+     <DOMVALUE_L>TC20</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0021</VALPOS>
+     <DOMVALUE_L>TC21</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEFATT_TIPO_CASSA</DOMNAME>
+     <VALPOS>0022</VALPOS>
+     <DOMVALUE_L>TC22</DOMVALUE_L>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>eFattura - Tipologia cassa previdenziale di appartenenza</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC01</DOMVALUE_L>
+     <DDTEXT>Cassa nazionale previdenza e assistenza avvocati e procurato</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC02</DOMVALUE_L>
+     <DDTEXT>Cassa previdenza dottori commercialisti</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC03</DOMVALUE_L>
+     <DDTEXT>Cassa previdenza e assistenza geometri</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC04</DOMVALUE_L>
+     <DDTEXT>Cassa nazionale previdenza e assistenza ingegneri e architet</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC05</DOMVALUE_L>
+     <DDTEXT>Cassa nazionale del notariato</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC06</DOMVALUE_L>
+     <DDTEXT>Cassa nazionale previdenza e assistenza ragionieri e periti</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC07</DOMVALUE_L>
+     <DDTEXT>Ente nazionale assistenza agenti e rappresentanti di commerc</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC08</DOMVALUE_L>
+     <DDTEXT>Ente nazionale previdenza e assistenza consulenti del lavoro</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC09</DOMVALUE_L>
+     <DDTEXT>Ente nazionale previdenza e assistenza medici (ENPAM)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC10</DOMVALUE_L>
+     <DDTEXT>Ente nazionale previdenza e assistenza farmacisti (ENPAF)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC11</DOMVALUE_L>
+     <DDTEXT>Ente nazionale previdenza e assistenza veterinari (ENPAV)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC12</DOMVALUE_L>
+     <DDTEXT>Ente nazionale previdenza e assistenza impiegati dell&apos;agrico</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC13</DOMVALUE_L>
+     <DDTEXT>Fondo previdenza impiegati imprese di spedizione e agenzie m</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC14</DOMVALUE_L>
+     <DDTEXT>Istituto nazionale previdenza giornalisti italiani (INPGI)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC15</DOMVALUE_L>
+     <DDTEXT>Opera nazionale assistenza orfani sanitari italiani (ONAOSI)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC16</DOMVALUE_L>
+     <DDTEXT>Cassa autonoma assistenza integrativa giornalisti italiani (</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC17</DOMVALUE_L>
+     <DDTEXT>Ente previdenza periti industriali e periti industriali laur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC18</DOMVALUE_L>
+     <DDTEXT>Ente previdenza e assistenza pluricategoriale (EPAP)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC19</DOMVALUE_L>
+     <DDTEXT>Ente nazionale previdenza e assistenza biologi (ENPAB)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC20</DOMVALUE_L>
+     <DDTEXT>Ente nazionale previdenza e assistenza professione infermier</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC21</DOMVALUE_L>
+     <DDTEXT>Ente nazionale previdenza e assistenza psicologi (ENPAP)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TC22</DOMVALUE_L>
+     <DDTEXT>INPS</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

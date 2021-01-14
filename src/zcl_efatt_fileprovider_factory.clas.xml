@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_EFATT_FILEPROVIDER_FACTORY</CLSNAME>
+    <LANGU>I</LANGU>
+    <DESCRIPT>Fattura Elettronica - Genera oggetto Fileprovider</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_FILEPROVIDER_FACTORY</CLSNAME>
+     <CMPNAME>FILE_LOGICO</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>File Logico</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_FILEPROVIDER_FACTORY</CLSNAME>
+     <CMPNAME>FTP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>FTP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EFATT_FILEPROVIDER_FACTORY</CLSNAME>
+     <CMPNAME>GET_FILEPROVIDER</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Generates Object with FILEPROVIDER Interface</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

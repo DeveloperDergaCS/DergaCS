@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_DIGEST_METHOD_TYPE</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZEFATT_DIGEST_METHOD_TYPE</OBJ_NAME_M>
+     <HASH_ID>8F60A83B15876ACF7DC130C29F03CA0140653C07</HASH_ID>
+     <ID>&lt;type&gt; DigestMethodType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>DigestMethodType</IFR_NAME>
+     <IFR_NSPCE>http://www.w3.org/2000/09/xmldsig#</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.w3.org/2000/09/xmldsig#</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZEFATT_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://www.w3.org/2000/09/xmldsig#</X-ML_NSPCE>
+     <X-ML_NAME>DigestMethodType</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_DIGEST_METHOD_TYPE</OBJ_NAME>
+     <OBJECT1>DTEL</OBJECT1>
+     <OBJ_NAME1>ZEFATT_DIGEST_METHOD_TYPE</OBJ_NAME1>
+     <OBJECT2>DTEL</OBJECT2>
+     <OBJ_NAME2>ZEFATT_DIGEST_METHOD_TYPE</OBJ_NAME2>
+     <ID>&lt;type&gt; DigestMethodType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>DigestMethodType</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>DTEL</R3_TYPE>
+     <R3_NAME>ZEFATT_DIGEST_METHOD_TYPE</R3_NAME>
+     <R3_TEXT>Proxy Data Element (generated)</R3_TEXT>
+     <R3_DTREF>XSDANY</R3_DTREF>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <FURTHERDATA>&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;IFR_MIXED&gt;true&lt;/IFR_MIXED&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</FURTHERDATA>
+    </item>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_DIGEST_METHOD_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ALGORITHM</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ALGORITHM</OBJ_NAME2>
+     <ID>&lt;attribute&gt; Algorithm &lt;type&gt; DigestMethodType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>attribute</IFR_TYPE>
+     <IFR_NAME>Algorithm</IFR_NAME>
+     <IFR_TAGTYP>A</IFR_TAGTYP>
+     <IFR_XSDTYP>anyURI</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ALGORITHM</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEFATT_DIGEST_METHOD_TYPE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ANY</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ANY</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZEFATT_ANY_TAB</OBJ_NAME_R>
+     <ID>&lt;any&gt; any &lt;type&gt; DigestMethodType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>any</IFR_TYPE>
+     <IFR_NAME>any</IFR_NAME>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ANY</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+     <FURTHERDATA>&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;IFR_NAMESPACE&gt;##other&lt;/IFR_NAMESPACE&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</FURTHERDATA>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

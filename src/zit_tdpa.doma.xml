@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZIT_TDPA</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Italian Government Document Type</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD01</DOMVALUE_L>
+     <DDTEXT>Fattura</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD02</DOMVALUE_L>
+     <DDTEXT>Acconto/Anticipo su fattura</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD03</DOMVALUE_L>
+     <DDTEXT>Acconto/Anticipo su parcella</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD04</DOMVALUE_L>
+     <DDTEXT>Nota di credito</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD05</DOMVALUE_L>
+     <DDTEXT>Nota di debito</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD06</DOMVALUE_L>
+     <DDTEXT>Parcella</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD16</DOMVALUE_L>
+     <DDTEXT>Integrazione fattura reverse charge interno</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD17</DOMVALUE_L>
+     <DDTEXT>Integrazione/autofattura per acquisto servizi dall&apos;estero</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD18</DOMVALUE_L>
+     <DDTEXT>Integrazione per acquisto di beni intracomunitari</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD19</DOMVALUE_L>
+     <DDTEXT>Integrazione/autofattura per acquisto di beni</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD20</DOMVALUE_L>
+     <DDTEXT>Autofattura per regolarizzazione e integrazione delle fatt.</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD21</DOMVALUE_L>
+     <DDTEXT>Autofattura per splafonamento</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD22</DOMVALUE_L>
+     <DDTEXT>Estrazione beni da Deposito IVA</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD23</DOMVALUE_L>
+     <DDTEXT>Estrazione beni da Deposito IVA con versamento dell’IVA</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD24</DOMVALUE_L>
+     <DDTEXT>Fatt. diff. di cui all’art. 21, comma 4, lett. a)4, terzo</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD25</DOMVALUE_L>
+     <DDTEXT>Fatt. diffe. di cui all’art. 21, comma 4, III Per., lett b)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD26</DOMVALUE_L>
+     <DDTEXT>Cessione di beni ammortizzabili e per passaggi interni</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZIT_TDPA</DOMNAME>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TD27</DOMVALUE_L>
+     <DDTEXT>Fatt. per autoconsumo o per cessioni gratuite senza rivalsa</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Italian Government Document Type</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD01</DOMVALUE_L>
+     <DDTEXT>Fattura</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD02</DOMVALUE_L>
+     <DDTEXT>Acconto/Anticipo su fattura</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD03</DOMVALUE_L>
+     <DDTEXT>Acconto/Anticipo su parcella</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD04</DOMVALUE_L>
+     <DDTEXT>Nota di credito</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD05</DOMVALUE_L>
+     <DDTEXT>Nota di debito</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD06</DOMVALUE_L>
+     <DDTEXT>Parcella</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD16</DOMVALUE_L>
+     <DDTEXT>Integrazione fattura reverse charge interno</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD17</DOMVALUE_L>
+     <DDTEXT>Integrazione/autofattura per acquisto servizi dall&apos;estero</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD18</DOMVALUE_L>
+     <DDTEXT>Integrazione per acquisto di beni intracomunitari</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD19</DOMVALUE_L>
+     <DDTEXT>Integrazione/autofattura per acquisto di beni</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD20</DOMVALUE_L>
+     <DDTEXT>Autofattura per regolarizzazione e integrazione delle fatt.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD21</DOMVALUE_L>
+     <DDTEXT>Autofattura per splafonamento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD22</DOMVALUE_L>
+     <DDTEXT>Estrazione beni da Deposito IVA</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD23</DOMVALUE_L>
+     <DDTEXT>Estrazione beni da Deposito IVA con versamento dell&apos;IVA</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD24</DOMVALUE_L>
+     <DDTEXT>Fatt. diff. di cui all&apos;art. 21, comma 4, lett. a)4, terzo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD25</DOMVALUE_L>
+     <DDTEXT>Fatt. diffe. di cui all&apos;art. 21, comma 4, III Per., lett b)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD26</DOMVALUE_L>
+     <DDTEXT>Cessione di beni ammortizzabili e per passaggi interni</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>TD27</DOMVALUE_L>
+     <DDTEXT>Fatt. per autoconsumo o per cessioni gratuite senza rivalsa</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

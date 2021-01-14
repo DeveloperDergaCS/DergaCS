@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZEFATT_KEY_INFO_TYPE_CHOIC_TAB</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZEFATT_KEY_INFO_TYPE</OBJ_NAME_M>
+     <HASH_ID>692A3F3CDEBACAD44413F919EACB62A2A1AAC67C</HASH_ID>
+     <ID>TableOf&lt;choice&gt; choice &lt;type&gt; KeyInfoType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>TableOfchoice</IFR_TYPE>
+     <IFR_NAME>choice</IFR_NAME>
+     <IFR_NSPCE>http://www.w3.org/2000/09/xmldsig#</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.w3.org/2000/09/xmldsig#</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZEFATT_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZEFATT_KEY_INFO_TYPE_CHOIC_TAB</OBJ_NAME>
+     <OBJECT1>TTYP</OBJECT1>
+     <OBJ_NAME1>ZEFATT_KEY_INFO_TYPE_CHOIC_TAB</OBJ_NAME1>
+     <OBJECT2>TTYP</OBJECT2>
+     <OBJ_NAME2>ZEFATT_KEY_INFO_TYPE_CHOIC_TAB</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZEFATT_KEY_INFO_TYPE_CHOICE</OBJ_NAME_R>
+     <ID>TableOf&lt;choice&gt; choice &lt;type&gt; KeyInfoType http://www.w3.org/2000/09/xmldsig# http://www.w3.org/2000/09/xmldsig#</ID>
+     <IFR_TYPE>TableOfchoice</IFR_TYPE>
+     <IFR_NAME>choice</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TTYP</R3_TYPE>
+     <R3_NAME>ZEFATT_KEY_INFO_TYPE_CHOIC_TAB</R3_NAME>
+     <R3_TEXT>Proxy Table Type (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

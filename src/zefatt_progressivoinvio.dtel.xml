@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZEFATT_PROGRESSIVOINVIO</ROLLNAME>
+    <HEADLEN>28</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>28</SCRLEN3>
+    <DTELMASTER>I</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>I</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>eFattura - Progressivo Invio</DDTEXT>
+     <REPTEXT>eFattura - Progressivo Invio</REPTEXT>
+     <SCRTEXT_S>Progr.Inv.</SCRTEXT_S>
+     <SCRTEXT_M>Progressivo Invio</SCRTEXT_M>
+     <SCRTEXT_L>eFattura - Progressivo Invio</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
